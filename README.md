@@ -34,8 +34,8 @@ An example of input and output files can be found under `input-output` folder.
 
 Every software *instruction* is encoded into a few *words* in memory, The first word is of the following structure:
 
-|  0-1   | 2-4  | 5-8 | 9-11  
-| ------------------  | ------ | -------- | ------ |  ------ | ----------- | ------ 
+|   0-1   |   2-4   |   5-8   |   9-11   
+| -----  | ----- | ----- | ----
 |       A,R,E        | Target operand addressing | opcode   |   Source operand addressing 
 
 
