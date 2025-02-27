@@ -36,7 +36,7 @@ Every software *instruction* is encoded into a few *words* in memory, The first 
 
 |   0-1   |   2-4   |   5-8   |   9-11   
 | -----  | ----- | ----- | ----
-|       A,R,E        | Target operand addressing | opcode   |   Source operand addressing 
+|       A,R,E        | Destination operand addressing | opcode   |   Source operand addressing 
 
 
 ## Commands
@@ -92,4 +92,4 @@ A **_directive_** line of the following structure:
  
 ## Registers
 There are 8 CPU registers: r0, r1, r2, r3, r4, r5, r6, r7.<br />
-The size of each register is 24 bits. 
+The size of each register is 12 bits. 
