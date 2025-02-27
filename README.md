@@ -41,24 +41,24 @@ Every software *instruction* is encoded into a few *words* in memory, The first 
 
 ## Commands
 
-|  Instruction name  |   funct  | Opcode (decimal)  | 
-| ------------------  | ------ | -------- 
-|       mov        |  | 0   | 
-|       cmp        |  | 1   | 
-|       add        | 1 | 2   | 
-|       sub        | 2 | 2   | 
-|       lea        |  | 4   | 
-|       clr        | 1 | 5   | 
-|       not        | 2 | 5   | 
-|       inc        | 3 | 5   | 
-|       dec        | 4 | 5   | 
-|       jmp        | 1 | 9   | 
-|       bne        | 2 | 9   | 
-|       jsr        | 3 | 9   | 
-|       red        |  | 12   | 
-|       prn        |  | 13   | 
-|       rts        |  | 14   | 
-|       stop        |  | 15   | 
+|  Instruction name  | Opcode (decimal)  | 
+| ------------------  | -------- 
+|       mov        | 0   | 
+|       cmp        | 1   | 
+|       add        | 2   | 
+|       sub        | 3   | 
+|       not        | 4   | 
+|       clr        | 5   | 
+|       lea        | 6   | 
+|       inc        | 7   | 
+|       dec        | 8   | 
+|       jmp        | 9   | 
+|       bne        | 10   | 
+|       red        | 11   | 
+|       prn        | 12   | 
+|       jsr        | 13   | 
+|       rts        | 14   | 
+|       stop       | 15   | 
 
 
 
